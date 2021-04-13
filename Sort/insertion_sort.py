@@ -4,7 +4,7 @@ from typing import List
 def insertion_sort(input_list: List[int]):
     """
     Сортировка вставкой: на каждой итерации i для элемента input_list[i]
-    выбирается место для вставки в массив input_list[0..i-1]
+    выбирается место для вставки в массив input_list[0:i]
 
     :param input_list:
     :return:

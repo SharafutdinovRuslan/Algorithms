@@ -3,6 +3,7 @@ import random
 
 from Sort.insertion_sort import insertion_sort
 from Sort.selection_sort import selection_sort
+from Sort.merge_sort import merge_sort
 
 
 class TestSorts(unittest.TestCase):
@@ -10,6 +11,7 @@ class TestSorts(unittest.TestCase):
     SORTING_ALGORITHMS = (
         insertion_sort,
         selection_sort,
+        merge_sort,
     )
 
     def setUp(self) -> None:

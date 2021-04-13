@@ -2,6 +2,13 @@ from typing import List
 
 
 def selection_sort(input_list: List[int]):
+    """
+    Сортировка выбором: на каждой итерации i выбирается минимальный элемент
+    из массива input_list[i:] и ставится на позицию i
+
+    :param input_list:
+    :return:
+    """
     for i in range(len(input_list) - 1):
         min_value = input_list[i]
         min_position = i
